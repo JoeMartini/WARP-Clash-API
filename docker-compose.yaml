@@ -2,6 +2,7 @@ version: "3.8"
 services:
   warp-clash:
     build: .
+    container_name: warp-clash
     ports:
       - "41001:3000"
     env_file:
