@@ -10,3 +10,4 @@ services:
       - ./config:/app/config
       - ./account:/app/account
       - ./logs:/app/logs
+      - /etc/hosts:/etc/hosts:ro
